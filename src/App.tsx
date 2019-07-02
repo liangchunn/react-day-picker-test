@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import DatePicker from './DatePicker/DatePicker';
+import noop from './util/noop';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DatePicker
+        initialMonth={new Date()}
+        changeListener={noop}
+        initFrom={undefined}
+        initTo={undefined}
+      />
     </div>
   );
-}
+};
 
 export default App;

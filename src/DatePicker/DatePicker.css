@@ -1,0 +1,17 @@
+.range div:focus {
+  outline: none;
+}
+.range .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #e5f2f6;
+  color: #7fbfd6;
+}
+.range .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #7fbfd6;
+  color: #fff;
+}
+.range .DayPicker-Day {
+  border-radius: 0;
+}
+.range .DayPicker-Day--today {
+  color: #bfdfea;
+}
