@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from 'react'
 import { DayModifiers } from 'react-day-picker'
-import noop from '../util/noop'
+import noop from '../../util/noop'
 
 export type DateRangeChangeListener = (fromDate: Date, toDate: Date) => void
 export type DateRangeState = Date | undefined

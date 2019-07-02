@@ -3,7 +3,7 @@ import useDateRange, {
   DateRangeState,
   DateRangeChangeListener,
 } from '../useDateRange'
-import noop from '../../util/noop'
+import noop from '../../../util/noop'
 
 const fireOnDayClick = (
   result: HookResult<ReturnType<typeof useDateRange>>

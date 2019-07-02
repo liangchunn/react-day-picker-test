@@ -1,6 +1,6 @@
-import React from 'react';
-import DatePicker from './DatePicker/DatePicker';
-import noop from './util/noop';
+import React from 'react'
+import DatePicker from '../DatePicker/DatePicker'
+import noop from '../../util/noop'
 
 const App: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const App: React.FC = () => {
         initTo={undefined}
       />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
